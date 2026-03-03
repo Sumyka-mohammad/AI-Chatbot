@@ -1,26 +1,39 @@
-# AI-Chatbot
-AI Chatbot Mentor – Domain-Specific Intelligent Learning Assistant
+🤖 AI Mentor Chatbot
 
-An AI-powered mentoring chatbot that provides focused, module-specific guidance across multiple technical domains. The system enforces strict domain control to ensure accurate, relevant, and distraction-free learning.
+A Production-Ready AI Learning Mentor Chatbot built using Streamlit and Google Gemini API.
+This chatbot acts as a domain-specific mentor and answers questions strictly within the selected learning module.
 
-Features
-Module-based mentoring (Python, SQL, Power BI, EDA, ML, DL, Gen AI, Agentic AI)
-Strict domain-restricted responses
-Polite rejection of out-of-scope questions
-Session-based conversation memory
-Download chat history in .txt format
-Clean and interactive Streamlit UI
-Tech Stack
-Streamlit
-LangChain
-Large Language Models (API-based / Open-source)
-Prompt Engineering
-Conversation Memory
+✨ Features
+🎯 Module-based AI mentoring
+🧠 Strict domain restriction
+💬 Continuous chat experience
+📥 Download full chat history (.txt)
+🧼 Simple and clean Streamlit UI
 
-Run Locally
+📚 Supported Modules
+Python
+SQL
+Power BI
+EDA (Exploratory Data Analysis)
+Machine Learning
+Deep Learning
+Generative AI
+Agentic AI
+
+⚠️ Strict Domain Enforcement Rule
+If a question is not related to the selected module, the chatbot responds:
+"Sorry, I don’t know about this question. Please ask something related to the selected module."
+This ensures domain-focused learning.
+
+🛠 Tech Stack
+Frontend: Streamlit
+LLM API: Google Gemini API
+Environment Management: python-dotenv
+Language: Python 
+
+▶️ Run the Application
 pip install -r requirements.txt
-streamlit run main1.py
+streamlit run aimentor.py
 
-A README with architecture and screenshots sections
-
-Just tell me.
+🎯 Purpose
+This project demonstrates how to build controlled, reliable AI mentor systems with real-world features like chat history export and strict domain control.
