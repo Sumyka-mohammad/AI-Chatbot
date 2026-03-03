@@ -10,7 +10,7 @@ This chatbot acts as a domain-specific mentor and answers questions strictly wit
 📥 Download full chat history (.txt)
 🧼 Simple and clean Streamlit UI
 
-#📚 Supported Modules
+# 📚 Supported Modules
  Python
  SQL
  Power BI
@@ -20,7 +20,7 @@ This chatbot acts as a domain-specific mentor and answers questions strictly wit
  Generative AI
  Agentic AI
 
-⚠️ Strict Domain Enforcement Rule
+# ⚠️Strict Domain Enforcement Rule
 If a question is not related to the selected module, the chatbot responds:
 "Sorry, I don’t know about this question. Please ask something related to the selected module."
 This ensures domain-focused learning.
